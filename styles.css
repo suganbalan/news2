@@ -1,0 +1,123 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: aliceblue;
+    font-family:"Exo" ;
+
+}
+.title{
+   display: block;
+   text-align: center;
+}
+.navbar {
+    display: flex;
+    background: linear-gradient(to top, #1c1c1c, #8b2323);   
+    justify-content: space-between;
+
+
+    
+    
+}
+.navbar h2{
+    display: flex;
+    justify-content: end;
+    color: white;
+    width: 1100px;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    justify-content: end;
+    display: flex;
+    padding: 10px;
+    width: 100vh;
+    align-items: center;
+    gap: 20px;
+    
+    
+
+}
+.navbar a{
+    color:white;
+}
+.news1 > img{
+    float: inline-start;
+    height: 190px;
+    width: 400px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+.news2{
+    display: block;
+}
+.news2 >  img{
+    height: 300px;      
+    width: 500px;
+    float: right;
+    border-radius: 20px;
+    
+}
+.middle h2{
+    text-align: center;
+}
+.footer {
+    background: linear-gradient(to top, #1c1c1c, #8b2323);    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: color 0.3s;
+  }
+  .navbar a:hover{
+    text-decoration: dotted;
+    font-weight: bold;
+    color :cyan
+  }
+  .navbar .logo{
+    align-items: start;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .drop_content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+  .drop_content a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    width: fit-content; 
+}
+.dropdown:hover .drop_content{
+    display: block;
+}
+.drop_content a:hover{
+    background-color: #832b2b;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+}
+.column{
+    column-count: 3;
+    column-gap: 5px;
+    column-rule: 2px solid #8b2323;
+    column-width: 250px;
+}
+.img{
+    float: left;
+}
